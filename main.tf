@@ -48,9 +48,4 @@ resource "aws_instance" "well" {
       host        = "${self.private_ip}"
     }
   }
-
- 
-  tags = {
-    Name = "Trial"
-  }
 }
